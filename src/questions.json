@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the most popular programming language in the world?",
+    "possibleAnswers": [
+      { "text": "javascript", "correct": "true", "id" : "1" },
+      { "text": "C++", "correct": "false", "id" : "2"  },
+      { "text": "Python", "correct": "false", "id" : "3"  },
+      { "text": "Go", "correct": "false", "id" : "4"  }
+    ]
+  },
+  {
+    "question": "Which of the following is not considered a JavaScript operator?",
+    "possibleAnswers": [
+      { "text": "this", "correct": "true", "id" : "1"  },
+      { "text": "new", "correct": "false", "id" : "2"  },
+      { "text": "delete", "correct": "false", "id" : "3"  },
+      { "text": "typeof", "correct": "false", "id" : "4"  }
+    ]
+  },
+  {
+    "question": "Using _______ statement is how you test for a specific condition.",
+    "possibleAnswers": [
+      { "text": "select", "correct": "false" , "id" : "1"},
+      { "text": "if", "correct": "true" , "id" : "2"},
+      { "text": "switch", "correct": "false" , "id" : "3"},
+      { "text": "for", "correct": "false" , "id" : "4"}
+    ]
+  },
+  {
+    "question": "The _______ method of an Array object adds and/or removes elements from an array.",
+    "possibleAnswers": [
+      { "text": "reverse", "correct": "false", "id" : "1" },
+      { "text": "shift", "correct": "false", "id" : "2" },
+      { "text": "splice", "correct": "true", "id" : "3" },
+      { "text": "slice", "correct": "false", "id" : "4" }
+    ]
+  }
+]
