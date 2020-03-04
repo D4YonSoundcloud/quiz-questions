@@ -14,7 +14,8 @@ class TitlePage extends Component {
       titleText: "Welcome to the quiz!",
       currentState: TITLE_STATE,
       counter: 0,
-      currentQuestion: 0
+      currentQuestion: 0,
+      score: 0
     };
     this.counter = 0;
     this.timeLimit = TIME_LIMIT;
@@ -40,6 +41,8 @@ class TitlePage extends Component {
             currentQuestion: this.state.currentQuestion
           });
     }
+
+
     console.log(this.state.currentState)
     //if question input given back is true then add 1 to counter
     //reset interval
